@@ -13,4 +13,4 @@ PS1=
 if [[ $SSH_CONNECTION ]] ; then
   PS1+='\u@\h'
 fi
-PS1+='\w\ $ '
+PS1+='\w \$ '
