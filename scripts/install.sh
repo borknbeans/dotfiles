@@ -14,6 +14,7 @@ packages=(
   openssh
   pkgfile
   git
+  starship
 )
 
 sudo pacman -S --noconfirm "${packages[@]}"
