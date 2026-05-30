@@ -10,7 +10,7 @@ return {
             ensure_installed = { "rust", "zig" },
             sync_install = false,
             auto_install = true,
-            higlight = {
+            highlight = {
                 enable = true,
                 additional_vim_regex_highlighting = false,
             },
