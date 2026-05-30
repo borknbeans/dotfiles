@@ -9,5 +9,4 @@ vim.opt.wrap = false
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.opt.mouse = "a"
-
-
+vim.g.mapleader = " "
