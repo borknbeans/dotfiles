@@ -1,5 +1,6 @@
 return {
     "nvim-treesitter/nvim-treesitter",
+    branch = "main",
     version = "*",
     lazy = false,
     build = ":TSUpdate",
@@ -7,7 +8,7 @@ return {
         local configs = require("nvim-treesitter.configs")
 
         configs.setup({
-            ensure_installed = { "rust", "zig" },
+            ensure_installed = { "rust", "zig", "lua" },
             sync_install = false,
             auto_install = true,
             highlight = {

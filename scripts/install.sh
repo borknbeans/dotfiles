@@ -19,6 +19,8 @@ packages=(
   ripgrep
   zig
   rustup
+  tree-sitter
+  tree-sitter-cli
 )
 
 sudo pacman -S --noconfirm "${packages[@]}"
