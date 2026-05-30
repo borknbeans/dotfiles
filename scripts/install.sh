@@ -17,9 +17,13 @@ packages=(
   starship
   make
   ripgrep
+  zig
+  rustup
 )
 
 sudo pacman -S --noconfirm "${packages[@]}"
+
+rustup default stable
 
 # Refresh font cache
 fc-cache -fv
