@@ -15,6 +15,8 @@ packages=(
   pkgfile
   git
   starship
+  make
+  ripgrep
 )
 
 sudo pacman -S --noconfirm "${packages[@]}"
