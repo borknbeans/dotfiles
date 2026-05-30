@@ -26,6 +26,7 @@ packages=(
   wireplumber
   xclip
   alsa-utils
+  fastfetch
   flameshot
 )
 

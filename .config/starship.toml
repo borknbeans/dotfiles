@@ -7,10 +7,15 @@ $directory\
 $git_branch\
 $git_state\
 $git_status\
+$fill\
 $cmd_duration\
+$time\
 $line_break\
 $python\
 $character"""
+
+[fill]
+symbol = " "
 
 [directory]
 style = "blue"
@@ -48,3 +53,8 @@ format = "[$virtualenv]($style) "
 style = "bright-black"
 detect_extensions = []
 detect_files = []
+
+[time]
+disabled = false
+format = "[$time]($style) "
+time_format = "%R"
