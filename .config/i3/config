@@ -187,3 +187,12 @@ bar {
 }
 
 bindsym $mod+shift+b exec firefox
+
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
+
+# Borders
+gaps inner 10
+gaps outer 5
+
+default_border pixel 4
+client.focused #d0d0d0 #d0d0d0 #d0d0d0 #d0d0d0 #d0d0d0
