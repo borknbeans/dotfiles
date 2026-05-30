@@ -21,6 +21,7 @@ packages=(
   rustup
   tree-sitter
   tree-sitter-cli
+  i3status
 )
 
 sudo pacman -S --noconfirm "${packages[@]}"
