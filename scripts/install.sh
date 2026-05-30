@@ -21,7 +21,12 @@ packages=(
   rustup
   tree-sitter
   tree-sitter-cli
-  i3status
+  pipewire
+  pipewire-pulse
+  wireplumber
+  xclip
+  alsa-utils
+  flameshot
 )
 
 sudo pacman -S --noconfirm "${packages[@]}"
@@ -30,3 +35,6 @@ rustup default stable
 
 # Refresh font cache
 fc-cache -fv
+
+# systemctl --user enable pipewire pipewire-pulse wireplumber
+# systemctl --user start pipewire pipewire-pulse wireplumber

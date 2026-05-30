@@ -183,10 +183,11 @@ bindsym $mod+r mode "resize"
 bar {
         position top
         font pango:JetBrainsMono Nerd Font 11
-        status_command i3blocks 
+        status_command SCRIPT_DIR=~/.config/i3blocks/scripts i3blocks 
 }
 
 bindsym $mod+shift+b exec firefox
+bindsym Print exec flameshot gui
 
 exec --no-startup-id picom --config ~/.config/picom/picom.conf
 exec --no-startup-id ~/.fehbg
